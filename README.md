@@ -34,8 +34,7 @@ Questo progetto implementa una serra automatica basata su Raspberry Pi Pico W (M
 1. Clona il repository sul Pico W.
 2. Modifica in `main.py` i parametri Wi‑Fi:
    ```python
-   ssid = "NomeRete"
-   password = "PasswordRete"
+   ssid, password = "SSID", "PSWRD"
    ```
 3. Regola le soglie di temperatura e umidità del suolo in `leggi_soglie()` se necessario.
 
