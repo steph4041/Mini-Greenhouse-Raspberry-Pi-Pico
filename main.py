@@ -149,7 +149,7 @@ button {{margin:5px;padding:10px 20px;font-size:16px;border:none;border-radius:5
 <div>Soglie: TempMax = {soglie['temp_max']:.1f} °C | SuoloMin = {soglie['umid_suolo_min']:.1f}%</div>
 </body></html>"""
 
-ssid, password = "Vodafone-CV24GHz", "MammaLucia2006!"
+ssid, password = "SSID", "PSWRD"
 sta = network.WLAN(network.STA_IF);
 sta.active(True)
 sta.connect(ssid, password)
